@@ -9,7 +9,7 @@ let numberz = "45"
 let zxc1 = typeof Number(numberz)
 console.log(zxc1)
 console.log(numberz)
-console.log(numberz+1)
-console.log(Number(numberz)+1)
-let xx= "123zxc"
+console.log(numberz + 1)
+console.log(Number(numberz) + 1)
+let xx = "123zxc"
 console.log(Number(xx))
