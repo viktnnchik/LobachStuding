@@ -56,9 +56,10 @@ if (lenght1>lenght2){
     console.log(lenght3)
 }
 
+
 const man1 = "admin"
-const man2 = "mod"
-const man3 = "user"
+ const man2 = "mod"
+ const man3 = "user"
 
 switch (man3){
     case "admin":
@@ -70,4 +71,17 @@ switch (man3){
     case "user":
         console.log(man3);
         break;
+}
+
+
+const lenght12=139;
+const lenght22=85;
+const lenght32=79;
+
+if(lenght12>lenght22 && lenght12>lenght32){
+    console.log(lenght12)
+}else if(lenght22>lenght12 && lenght22>lenght32){
+    console.log(lenght22)
+}else {
+    console.log(lenght32)
 }
