@@ -124,7 +124,7 @@ while (true) {
     }
     console.log(i)
 }
-const array = [1, 5, 7, 34, 456, 3, 32, 67, 23, 54, 87]
+const array = [1, 5, 7, 34, 456, 3, 32, 67, 23, 54, 87,45,234432,5665,2332,45,3245,3345]
 
 
 for (let i = 1; i < array.length + 1; i++) {
