@@ -92,7 +92,7 @@ console.log(0 && true || "false" && null)
 console.log(!0 && !!1)
 console.log(!(null || !"апельсин" && true))
 
-temperature = -30
+temperature = -3870
 
 if (temperature <= -30) {
     console.log("Оставайтесь дома!")
