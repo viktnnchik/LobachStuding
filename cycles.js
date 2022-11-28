@@ -124,7 +124,7 @@ while (true) {
     }
     console.log(i)
 }
-const array = [1, 5, 7, 34, 456, 3, 32, 67, 23, 54, 87,45,234432,5665,2332,45,3245,3345]
+const array = [1, 5, 7, 34, 456, 3, 32, 67, 23, 54, 87, 45, 234432, 5665, 2332, 45, 3245, 3345]
 
 
 for (let i = 1; i < array.length + 1; i++) {
@@ -132,4 +132,21 @@ for (let i = 1; i < array.length + 1; i++) {
     if (!!p) {
         console.log(array[array.length - i])
     }
+}
+let auto = 37
+let end = 5
+let t = 0
+let n = 0
+for (auto; auto > end; auto -= t) {
+
+    if (!!auto % 2) {
+        let z = auto % 2
+        auto = auto - auto % 2
+        t = auto / 2 + z
+    } else {
+        t = auto / 2
+    }
+    n++
+    console.log(n)
+
 }
