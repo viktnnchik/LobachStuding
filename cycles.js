@@ -150,3 +150,21 @@ for (auto; auto > end; auto -= t) {
     console.log(n)
 
 }
+
+let startYear = 1800
+const lastYear = 2022
+const flyingYear = 1961
+let i = 0
+let v = 1
+for (startYear; startYear < lastYear; startYear += 1) {
+    if (!!startYear % 4) {
+        console.log(v)
+        v++
+    }
+    while (startYear < flyingYear) {
+        startYear += 1
+        i++
+        console.log(`Количество итераций, нужных для поиска года полета = `)
+        console.log(i)
+    }
+}
