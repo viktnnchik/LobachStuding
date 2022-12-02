@@ -34,4 +34,4 @@ let func = (number, word) => {
         console.log(false);
     }
 };
-func(6, "BadxxxxX");
+func(0, "BadxxxX");
