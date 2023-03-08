@@ -27,3 +27,18 @@ let FavouriteFilms = {
 FavouriteFilms.cash= 10000
 delete FavouriteFilms.cash
 console.log(FavouriteFilms)
+
+const number = 100
+console.log(number)
+console.log(number.toString())
+
+const word = "dfkDSFdfklS"
+
+let proverka = (a,b) =>{
+    if (a[b] === a[b].toUpperCase()){
+        console.log(true)
+    }else {
+        console.log(false)
+    }
+}
+proverka(word,3)
